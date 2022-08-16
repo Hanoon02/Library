@@ -1,3 +1,3 @@
 # Library
 
-## Empty Repo, will update soon
+### A virtual library created using JavaScript
