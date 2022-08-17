@@ -1,5 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>Library</head>
+    <head>
+    <title>Library</title>
     <script src="scripts.js" defer></script>
+    </head>
+    <body>
+        <div id="header">
+            <h2>Library</h2>
+        </div>
+        <div>
+            <form class="add-book">
+                <h3>Add new book</h3>
+                <input
+                    class="input"
+                    type="text"
+                    id="title"
+                    placeholder="Title"
+                    maxlength="50"
+                    required/>
+                <input
+                    class="input"
+                    type="text"
+                    id="author"
+                    placeholder="Author"
+                    maxlength="50"
+                    required/>
+                <input
+                    class="input"
+                    type="text"
+                    id="pages"
+                    placeholder="Pages"
+                    maxlength="1000"
+                    required/>
+                <button class="btn green" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
 </html>
