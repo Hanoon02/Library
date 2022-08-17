@@ -9,8 +9,8 @@
             <h2>Library</h2>
         </div>
         <div>
-            <form class="add-book">
-                <h3>Add new book</h3>
+            <form class="add-book" id="bookForm">
+                <h3>Enter the details</h3>
                 <input
                     class="input"
                     type="text"
@@ -32,8 +32,14 @@
                     placeholder="Pages"
                     maxlength="1000"
                     required/>
-                <button class="btn green" id="submit">Submit</button>
             </form>
+            <div>
+                <button id="reset">Reset</button>
+                <button id="addBook">Add</button>
+            </div>
+        </div>
+        <div>
+            <button class="print-btn" id="print">Print Books</button>
         </div>
     </body>
 </html>
